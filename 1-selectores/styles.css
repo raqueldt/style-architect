@@ -1,0 +1,93 @@
+/* SELECTOR UNIVERSAL */
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* SELECTOR ETIQUETA */
+h1 {
+  background-color: whitesmoke;
+  color: darkblue;
+  padding: 10px;
+}
+
+a {
+  font-size: 12px;
+  text-decoration: none;
+  color: blue;
+}
+footer a {
+  color: darkorchid;
+}
+
+/* SELECTOR ID */
+
+#decripcion,
+#titulo {
+  border: 3px solid darkblue;
+  padding: 15px;
+  text-align: justify;
+}
+/* SELECTOR CLASE */
+
+.parrafo {
+  font-style: italic;
+  text-decoration: wavy;
+}
+
+.frase {
+  color: darkcyan;
+  font-weight: 600;
+}
+/* SELECTOR ATRIBUTO */
+
+#usuario form {
+  border: 5px solid darkorchid;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#usuario form * {
+  display: block; /*Elemento en cada linea*/
+}
+
+/*aqui atributo*/
+
+input[type="text"] {
+  margin: 10px;
+  padding: 10px;
+  width: 25%;
+}
+input[type="submit"] {
+  background: darkblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0  4px 10px gray;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+/*Selector hijo*/
+
+
+#menu > li > a{
+  font-size: 12px;
+  text-decoration: none;
+  color: darkblue;
+}
+
+/*Prioridad: especifico, important*/
+
+#mensaje h1{
+  background-color: lightgray;
+  text-align: center;
+}
+
+/* h1 {
+  background-color: lightyellow;
+} */
