@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="libre">
+        <h1>Absolute</h1>
+        <pre>
+            <code>
+                border: 2px solid black;
+                background-color:rgb(247, 255, 161);
+                color: black;
+                width: 500px;
+                height: auto;
+                font-size: 13px;
+                position: absolute;
+                left: 10%;
+            </code>
+        </pre>
+      </div>
+
+      <div class="relativo">
+        <div class="inner-absolute">
+        <h1>Relativo</h1>
+
+          <pre>
+            <code>
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            </code>
+        </pre>
+        </div>
+      </div>
+
+      <div class="relativo2">
+        <div class="inner-absolute2">
+        <h1>Relativo</h1>
+
+          <pre>
+            <code>
+                position: relative;
+                background-color: lightblue;
+                display: flex; 
+                justify-content: center; /* Centrar H */
+                align-items: center; /* Centrar V */
+            </code>
+        </pre>
+        </div>
+      </div>
+
+      <div class="relativO3">
+        <div class="inner-absolute3">
+           <code>
+            <pre>
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+            </pre>
+           </code>
+        </div>
+    </div>
+
+   
+    </div>
+    <div class="footer">
+        copy right @copy;
+     </div>
+  </body>
+</html>

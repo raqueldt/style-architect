@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    color: white
+}
+
+#boton{
+    display: block;
+    background-color: aquamarine;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid aqua;
+    transition:  background-color 2s;  /* all o propiedades*/ 
+}
+
+#boton:hover{
+    border-radius: 15%;
+    background-color: blueviolet;
+    color: white;
+
+}
+
+
+
+
+
+.contenedor{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    text-align: center;
+
+    animation: desplazar 5s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes desplazar {
+
+    0%    {
+        margin-left: 0px ;
+        transform: rotate(0deg);
+    }
+    50%{
+        margin-left: 500px;
+        transform: rotate(360deg);
+        border-radius: 200px;
+    }
+    75%{
+        background-color: pink;
+        border: 5px dashed rgb(58, 31, 228);
+    }
+
+    100%{
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+    
+}
+
+

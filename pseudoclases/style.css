@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white
+}
+
+ul li:first-child{
+    color: yellow;
+
+}
+
+ul li:nth-child(3){
+    color: red;
+}
+
+ul li:last-child{
+    color:green;
+}
+
+#enlace{
+    font-size: 2em;
+    color: lightpink;
+
+}
+
+#enlace:visited{
+background-color: blueviolet;
+}
+
+#enlace:hover{
+    color: cadetblue;
+}
+
+#enlace:active{
+    color: lightgreen
+}
+
+input[type="text"]{
+    padding: 10px;
+    margin-top: 1em ;
+    font-size: 2em;
+}
+
+input[type="text"]:focus{
+    border-style: double;
+}
