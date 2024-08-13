@@ -1,0 +1,66 @@
+html {
+    font-size: 16px; /* Tamaño de fuente base para REM */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Tipo de letra fácil de leer */
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.columna {
+    width: 45%;
+    padding: 10px;
+}
+
+.columna h2 {
+    color: #333;
+    text-align: center;
+}
+
+.columna p {
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 2px solid #666;
+    background-color: #eee;
+}
+
+.pixels {
+    font-size: 40px; /* Tamaño de fuente muy grande en píxeles */
+    color: red;
+}
+
+.centimetros {
+    font-size: 2cm; /* Tamaño de fuente muy grande en centímetros */
+    color: blue;
+}
+
+.pulgadas {
+    font-size: 0.8in; /* Tamaño de fuente grande en pulgadas */
+    color: green;
+}
+
+.em {
+    font-size: 3em; /* Tamaño de fuente grande relativo al tamaño de fuente del padre */
+    color: orange;
+}
+
+.rem {
+    font-size: 3rem; /* Tamaño de fuente grande relativo al tamaño de fuente del elemento raíz */
+    color: purple;
+}
+
+.porcentaje {
+    font-size: 200%; /* Tamaño de fuente como 200% del tamaño de fuente del padre */
+    color: brown;
+}
