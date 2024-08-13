@@ -1,47 +1,103 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+html {
+    font-size: 16px; /* Tamaño de fuente base para REM */
 }
 
-.contenido {
+body {
+    font-family: Arial, sans-serif; /* Tipo de letra fácil de leer */
     padding: 20px;
-    color: #fff;
-    background-color: #333; /*Base*/
+    background-color: #f4f4f4;
 }
 
-/*Movil- vertical */
-@media (max-width: 600px) and (orientation: portrait) {
-    .contenido {
-        background-color: #3498db; 
-    }
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/*Movil- horizontal */
-@media (max-width: 600px) and (orientation: landscape) {
-    .contenido {
-        background-color: #2ecc71; 
-    }
+.columna {
+    width: 45%;
+    padding: 10px;
 }
 
-
-/* Tabletas  vertical */
-@media (min-width: 601px) and (max-width: 1024px) and (orientation: portrait) {
-    .contenido {
-        background-color: #f1c40f; 
-    }
+.columna h2 {
+    color: #333;
+    text-align: center;
 }
 
-/* Tabletas horizontal */
-@media (min-width: 601px) and (max-width: 1024px) and (orientation: landscape) {
-    .contenido {
-        background-color: #e67e22; 
-    }
+.columna p {
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 2px solid #666;
+    background-color: #eee;
 }
 
-/* Desktop */
-@media (min-width: 1025px) {
-    .contenido {
-        background-color: #9b59b6; 
-    }
+.pixels {
+    font-size: 40px; /* Tamaño de fuente muy grande en píxeles */
+    color: red;
+}
+
+.centimetros {
+    font-size: 2cm; /* Tamaño de fuente muy grande en centímetros */
+    color: blue;
+}
+
+.pulgadas {
+    font-size: 0.8in; /* Tamaño de fuente grande en pulgadas */
+    color: green;
+}
+
+.em {
+    font-size: 3em; /* Tamaño de fuente grande relativo al tamaño de fuente del padre */
+    color: orange;
+}
+
+.rem {
+    font-size: 3rem; /* Tamaño de fuente grande relativo al tamaño de fuente del elemento raíz */
+    color: purple;
+}
+
+.porcentaje {
+    font-size: 200%; /* Tamaño de fuente como 200% del tamaño de fuente del padre */
+    color: brown;
+}
+
+.viewport-width {
+    font-size: 5vw; /* Tamaño de fuente relativo al 5% del ancho de la ventana */
+    color: darkcyan;
+}
+
+.viewport-height {
+    font-size: 5vh; /* Tamaño de fuente relativo al 5% de la altura de la ventana */
+    color: darkmagenta;
+}
+
+.vmin {
+    font-size: 10vmin; /* Tamaño de fuente relativo al 10% de la dimensión más pequeña de la ventana */
+    color: darkgreen;
+}
+
+.vmax {
+    font-size: 10vmax; /* Tamaño de fuente relativo al 10% de la dimensión más grande de la ventana */
+    color: darkblue;
+}
+
+/* Ejemplo usando CSS Grid y la unidad 'fr' */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* la segunda es dos veces más ancha que la primera */
+    gap: 10px;
+    margin-top: 20px; 
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.grid-container div {
+    padding: 10px;
+    background-color: #ccc;
+    border: 1px solid black;
+    text-align: center;
 }
