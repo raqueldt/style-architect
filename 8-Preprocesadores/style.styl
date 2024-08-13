@@ -1,0 +1,19 @@
+// Variables
+primary-color = #3498db
+padding-large = 20px
+
+// Mixin
+flex-center()
+  display: flex
+  justify-content: center
+  align-items: center
+
+// Uso de anidamiento y mixin
+.container
+  flex-center()
+  background-color: primary-color
+  padding: padding-large
+  
+  .content
+    font-size: 16px
+    color: darken(primary-color, 10%) // Función de color
