@@ -1,0 +1,22 @@
+
+// ESTILOS GENERALES
+body {
+    background-color: $background-default-home;
+    margin: $margin-principal;
+}
+
+h1 {
+    font-family: $font-default;
+    color: $color-default;
+}
+
+p {
+    color: $color-paragraph;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+

@@ -1,0 +1,26 @@
+// ANIDACIÓN
+.navegacion {
+    list-style: none;
+    padding: 0;
+    background: $nav-background;
+    width: $nav-width;
+
+    li {
+        border-bottom: 1px solid $nav-border-color;
+        
+        &:last-child {
+            border-bottom: none; // Elimina el borde para el último elemento
+        }
+        
+        a {
+            display: block;
+            color: $link-color;
+            padding: $link-padding;
+            text-decoration: none;
+            
+            &:hover {
+                background-color: $hover-background-color;
+            }
+        }
+    }
+}
