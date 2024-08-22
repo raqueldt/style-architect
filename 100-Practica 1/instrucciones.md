@@ -51,8 +51,10 @@ Utiliza mixins para estilos reutilizables, como botones, sombras, o transiciones
 ## Uso Correcto de Etiquetas HTML
 Asegúrate de que las etiquetas HTML usadas en el proyecto sean semánticamente correctas para los estilos que se aplican. Por ejemplo, utiliza `<header>`, `<footer>`, `<nav>` para las estructuras correspondientes y asegúrate de que los estilos SASS coincidan con estas estructuras.
 
+## Estructura asignada
+Se enfoca a la estructura general o macro de la pantalla, es decir lo que va a predominar en el diseño, también pueden incluir otras estructuras, pero la asignada es la que debe predominar.
 ## Evaluación
-- **Claridad y organización del código**: El código debe ser fácil de entender y bien comentado.
+- **Claridad y organización del código**: El código debe ser fácil de entender (nombres, organizaición).
 - **Eficiencia de los mixins**: Los mixins deben proporcionar ventajas claras como reusabilidad y reducción de redundancias.
 - **Consistencia de los estilos**: Los estilos deben ser consistentes en todas las páginas y componentes.
 - **Responsividad**: El diseño debe ser responsive y adaptarse a diferentes tamaños de pantalla.
